@@ -1,5 +1,5 @@
 # Author: Sanjt Narwekar
-# Repo: https://github.com/SanjitNarwekar/Mastering-Software-Development-in-R
+# Repo: https://github.com/SanjitNarwekar/Advanced-R-Programming
 
 
 # function factorial_loop -----------------------------------------------------
