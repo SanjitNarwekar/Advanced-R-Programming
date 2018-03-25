@@ -25,12 +25,12 @@ factorial_loop <- function(x) {
   }
   
   if (!check.integer(x)){
-    message("Input ",x," is not an integer. abs(x) used. Results will not tally")
+    message("Input ",x," is not an integer. abs(x) used. Results will not tally with internal R function")
     
   }
   
   if ( x < 0 ){
-    message("Input ",x," is not positive. abs(x) used. Results will not tally")
+    message("Input ",x," is not positive. abs(x) used. Results will not tally with internal R function")
   }
   
   for (i in (x - 1):1) {
