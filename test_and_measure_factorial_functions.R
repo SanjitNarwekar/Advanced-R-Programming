@@ -23,18 +23,25 @@ fn1 <- getURL("https://raw.githubusercontent.com/SanjitNarwekar/Advanced-R-Progr
 
 eval(parse(text = fn1))
 
+rm(fn1)
+
 fn2 <- getURL("https://raw.githubusercontent.com/SanjitNarwekar/Advanced-R-Programming/master/fn_factorial_reduce.R", ssl.verifypeer = FALSE)
 
 eval(parse(text = fn2))
+
+rm(fn2)
 
 fn3 <- getURL("https://raw.githubusercontent.com/SanjitNarwekar/Advanced-R-Programming/master/fn_factorial_recursion.R", ssl.verifypeer = FALSE)
 
 eval(parse(text = fn3))
 
+rm(fn3)
+
 fn4 <- getURL("https://raw.githubusercontent.com/SanjitNarwekar/Advanced-R-Programming/master/fn_factorial_memoisation.R", ssl.verifypeer = FALSE)
 
 eval(parse(text = fn4))
 
+rm(fn4)
 
 # Create lookup table for memoization with 0 and 1 as  the 1st 2 values and 65 NA's
 # This should give fast calculation of values of 0 and 1 and 65 other numbers sfter 
