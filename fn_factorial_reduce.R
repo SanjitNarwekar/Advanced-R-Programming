@@ -36,7 +36,7 @@ factorial_reduce <- function(x) {
   }
   
   reduce(1:x, `*`)
-  x
+  
 }
 
 
