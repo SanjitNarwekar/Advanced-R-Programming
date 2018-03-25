@@ -20,6 +20,8 @@ library(installr)
 
 factorial_loop <- function(x) {
   
+  check.integer <- installr:::check.integer
+  
   if (x == 0 ||  x == -0 || x == 1){
     return(1)
   }
@@ -48,3 +50,4 @@ input <- c(4.5, 1.5)
 # factorial() is used to compare the results
 factorial(input)
 map_dbl(input, factorial_loop)
+
