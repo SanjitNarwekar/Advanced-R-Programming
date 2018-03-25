@@ -36,6 +36,6 @@ factorial_func <- function(x) {
   }
   
   x * factorial_func(x - 1)
-  x
+  
 }
 
