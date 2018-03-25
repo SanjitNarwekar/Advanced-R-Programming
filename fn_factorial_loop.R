@@ -5,7 +5,7 @@
 # function factorial_loop -----------------------------------------------------
 #
 # This function uses a for loop to calculate factorials. The function expects 
-# only a postive integer as an input..
+# only a postive integer as an input.
 #
 #------------------------------------------------------------------------------
 
