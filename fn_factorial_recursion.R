@@ -12,7 +12,6 @@
 # load libraries --------------------------------------------------------------
 
 library(purrr)
-library(microbenchmark)
 library(installr)
 
 
@@ -40,13 +39,3 @@ factorial_func <- function(x) {
   x
 }
 
-
-
-# Test functions --------------------------------------------------------------
-
-input <- c(4.5, 1.5)
-
-# Check if all functions produce the same results. R's built-in function
-# factorial() is used to compare the results
-factorial(input)
-map_dbl(input, factorial_reduce)
