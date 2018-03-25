@@ -12,7 +12,6 @@
 # load libraries --------------------------------------------------------------
 
 library(purrr)
-library(microbenchmark)
 library(installr)
 
 check.integer <- installr:::check.integer
@@ -42,11 +41,3 @@ factorial_mem <- function(x) {
 
 
 
-# Test functions --------------------------------------------------------------
-
-input <- c(4, 5.9)
-
-# Check if all functions produce the same results. R's built-in function
-# factorial() is used to compare the results
-factorial(input)
-map_dbl(input, factorial_mem)
