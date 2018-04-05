@@ -82,7 +82,7 @@ cat("====== PART 2: Performance and comparison of ranges of input values =======
 cat("======================== across factorial functions ======================= \n\n")
 
 get_benchmark <- function(x) {
-  fact_tbl <<- c(rep(NA, 100))
+  #fact_tbl <<- c(rep(NA, 100))
   microbenchmark(map_dbl(x, factorial_loop),
                  map_dbl(x, factorial_reduce),
                  map_dbl(x, factorial_func),
@@ -90,7 +90,7 @@ get_benchmark <- function(x) {
 }
 
 ranges <- list(`range 1:10` = 1:10,
-               `range 1:24` = 1:25,
+               `range 1:25` = 1:25,
                `range 1:65` = 1:65)
 
 range_results <- map(ranges, get_benchmark)

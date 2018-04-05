@@ -2,10 +2,10 @@
 # Repo: https://github.com/SanjitNarwekar/Advanced-R-Programming
 
 
-# test and measure factorial functions -----------------------------------------------------
+# test and measure factorial functions ----------------------------------------
 #
-# This script calls 4 factorial functions written by me to compare with the built in 
-# factorial function in R.
+# This script calls 4 factorial functions written by me to compare with the 
+# built in factorial function in R.
 #
 #------------------------------------------------------------------------------
 
